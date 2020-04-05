@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+    android:text="Enter userName"
+        android:id="@+id/tvUserName"/>
+
+    <EditText
+        android:id="@+id/etUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    android:hint="enter user name"/>
+    <Button
+        android:text="Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:text="Are you playing?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    android:checked="true"/>
+
+     <RadioButton
+        android:text="Are you Male"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    android:checked="false"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    android:src="@drawable/ic_launcher"/>
+
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    android:checked="true"/>
+
+
+         <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    android:checked="false"/>
+
+
+    <SeekBar 
+     android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+   />
+
+    <DatePicker
+      android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    
+    <TimePicker
+      android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <SearchView 
+     android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+</ScrollView>
